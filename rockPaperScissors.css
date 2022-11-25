@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(90deg, #0B92DE 0%, #78EFE8 100%);
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 155px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.imagesContainer{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 20rem;
+    height: 6rem;
+    background-color: #FE00B7;
+    color: #FFFFFF;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+i{
+    font-size: 20rem;
+    margin: 32px;
+    color: #fbfcff9d;
+    cursor: pointer;
+}
+
+i:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hoverWhite:hover{
+    color: #FFFFFF;
+}
+
+.scoreContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.score{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+    color: white;
+}
+
+.linearGradientIcon{
+    background: conic-gradient(from 180deg at 50% 50%, #FE00B7 0deg, #D2FFAF 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:950px){
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    i{
+        font-size: 10rem;
+    }
+    button{
+        width: 20rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+    .score{
+        font-size: 1.5rem;
+    }
+    .scoreContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    i{
+        font-size: 5rem;
+    }
+    button{
+        width: 15rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    .score{
+        font-size: 1.8rem;
+    }
+    .headerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gameTextContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+    }
+    .scoreContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
